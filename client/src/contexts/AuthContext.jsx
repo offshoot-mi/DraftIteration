@@ -9,7 +9,7 @@ export const useAuth = () => useContext(AuthContext);
 
 // USE ENVIRONMENT VARIABLE FOR API URL
 const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5001/api',
+  baseURL: import.meta.env.VITE_API_URL || 'draftiterationj.onrender.com/api',
 });
 
 apiClient.interceptors.request.use(
