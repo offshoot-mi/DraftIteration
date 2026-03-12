@@ -29,7 +29,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: process.env.CLIENT_URL ||  'draftiteration.onrender.com',
+  origin: process.env.CLIENT_URL ||  'https://draftiteration.onrender.com',
   credentials: true
 }));
 app.use(helmet());
