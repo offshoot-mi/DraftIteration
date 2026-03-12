@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import LoadingSpinner from '../../components/Common/LoadingSpinner';
-import ContentFamilyTree from '../../components/Admin/ContentFamilyTree';
+import ContentFamilyTree from './ContentFamilyTree';
 import AdminVerificationRequestsPage from './AdminVerificationRequestsPage';
 import { FaTree, FaUserShield } from 'react-icons/fa';
 
