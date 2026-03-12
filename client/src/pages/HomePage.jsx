@@ -8,7 +8,7 @@ import { FaFire, FaUsers, FaGlobeAmericas, FaSearch, FaTimes } from 'react-icons
 // Import Feed Components and the new Search Results component
 import PopularFeed from '../components/Feed/PopularFeed';
 import MyPageFeed from '../components/Feed/MyPageFeed';
-import ExploreFeed from '../components/Feed/ExploreFeed';
+import ExploreFeed from '../components/Feed/Explorefeed';
 //import ArticleSearchResults from '../components/Search/ArticleSearchResults';
 
 const HomePage = () => {
